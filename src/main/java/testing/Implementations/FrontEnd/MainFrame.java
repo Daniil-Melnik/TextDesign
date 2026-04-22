@@ -36,7 +36,7 @@ public class MainFrame extends JFrame implements Observer {
         rootCompositor = composeMainFrame();
 
         setSize(Constants.FRAME_W, Constants.FRAME_H);
-        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
         setTitle("Просмотр текста");
         setLayout(new BorderLayout());
